@@ -12,3 +12,4 @@ C:\Users\user\OneDrive\Desktop\DesignPatterns\OOP\obj\Debug\net8.0\refint\OOP.dl
 C:\Users\user\OneDrive\Desktop\DesignPatterns\OOP\obj\Debug\net8.0\OOP.pdb
 C:\Users\user\OneDrive\Desktop\DesignPatterns\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 C:\Users\user\OneDrive\Desktop\DesignPatterns\OOP\obj\Debug\net8.0\ref\OOP.dll
+C:\Users\user\OneDrive\Desktop\DesignPatterns\OOP\obj\Debug\net8.0\OOP.sourcelink.json

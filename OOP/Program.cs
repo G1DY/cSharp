@@ -1,4 +1,9 @@
-﻿using OOP.src.Composition;
+﻿using OOP.src.SOLID.LSP;
 
-var car = new Car();
-car.startCar();
+var rect = new Rectangle
+{
+    Height = 10,
+    Width = 5
+};
+
+System.Console.WriteLine("The Area is" + rect.Area);

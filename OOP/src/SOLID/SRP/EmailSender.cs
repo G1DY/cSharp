@@ -7,6 +7,9 @@ namespace OOP.src.SOLID.SRP
 {
     public class EmailSender
     {
-        
+        public void sendingEmail(string message, string email)
+        {
+            System.Console.WriteLine($"sending email to {email} : {message}");
+        }   
     }
 }

@@ -8,7 +8,6 @@ namespace OOP.src.SOLID.LSP
 {
     public abstract class Shapes
     {
-        public abstract double GetArea();
-        public abstract void SetArea(double value);
+        public abstract double Area { get; }
     }
 }

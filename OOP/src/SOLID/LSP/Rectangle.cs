@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace OOP.src.SOLID.LSP
 {
-    public abstract class Rectangle : Shapes
+    public class Rectangle : Shapes
     {
         public virtual double Height { get; set; }  
         public virtual double Width { get; set;}
