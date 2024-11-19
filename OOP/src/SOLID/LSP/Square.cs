@@ -7,7 +7,7 @@ namespace OOP.src.SOLID.LSP
 {
     public class Square : Rectangle   
     {
-       public override double Height { get => Height; set => Height = Width = value; }
-       public override double Width { get => Width; set => Width = Height = value;} 
+       public override double Height { get => base.Height; set => base.Height = base.Width = value; }
+       public override double Width { get => base.Width; set => base.Width = base.Height = value;} 
     }
 }

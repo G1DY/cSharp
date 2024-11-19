@@ -1,9 +1,7 @@
 ﻿using OOP.src.SOLID.LSP;
 
-var rect = new Rectangle
-{
-    Height = 10,
-    Width = 5
-};
+var rect = new Square();
+rect.Width = 10;
+rect.Height = 5;
 
-System.Console.WriteLine("The Area is" + rect.Area);
+System.Console.WriteLine("The area is" + rect.Area);
