@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace OOP.src.SOLID.OCP
 {
-    public class Circle
+    public class Circle : Shapes
     {
-        
+        public double Radius { get; set; }
+        public override double CalculateArea()
+        {
+            return Math.PI * Math.Pow(Radius, 2);
+        }
     }
 }

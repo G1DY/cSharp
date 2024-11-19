@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace OOP.src.SOLID.OCP
 {
-    public class Shapes
+    public abstract class Shapes
     {
-        
+        public abstract double CalculateArea();
     }
 }
